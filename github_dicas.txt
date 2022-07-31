@@ -1,0 +1,41 @@
+cd = navegar 
+mkdir = cria a pasta
+touch = cria um arquivo (*.txt)
+ls = mostra o que tem dentro da pasta que se está
+
+git clone = clona o endereço do reposítório remoto
+git config user.email: coloca o seu email
+git config.user.nome: e coloca seu nome
+git branch = cria a branch
+git checkout = troca entre branch
+git status = mostra situação do repotorio
+git commit = prepara para dar push (-am: A indica todos os novos arquivos, M indica mensagem 
+git pull = traz do remoto
+git push = entrega para remoto
+git log = ver as últimas alterações
+git add = prepara para dar commit
+rm = remove o arquivo
+
+esc / :q! - sai do modo estranho quando faz commit sem msg
+
+Primeiramente acesso a pasta e crio a pasta(caso não exista)/
+GIT CLONE para clonar o repositório para o PC.
+-cd para acessar a pasta criada pelo clone.
+--ls mostra todo conteúdo dentro dessa pasta
+GIT STATUS e ele me mostra os arquivos ainda não rastreados e rastreados/
+Uso GIT BRANCH master ou main para acessar uma branch que eu queira. ou cirar nova.
+Caso já tenha eu uso GIT CHECKOUT e o nome da branch a qual eu quero acessar.
+Uso GIT ADD para rastrear o arquivo em questão /
+GIT STATUS e confere se o arquivo está verde, indicando estar add para commit
+Uso GIT COMMIT -m "para adicionar o nome do commit" e depois o arquivo, 
+-ou só GIT COMMIT para preparar a subida.
+(talvez aqui peça a conta - só logar e tentar novamente o comando)
+GIT PUSH -u origin(origin é o nome da instancia local, e o nome da branch) master 
+-para subir o arquivo para o repositório
+GIT PULL para baixar para o repositório
+GIT LOG para ver as hash dos últimos commits
+
+
+
+
+
